@@ -1,2 +1,4 @@
 # EDMC_Elite_Mining_Analystics_Dashboard
-Dashboarding component to compliment the Elite Mining Analytics
+Dashboarding component to compliment the Elite Mining Analytics located at https://github.com/SweetJonnySauce/EDMC-Mining-Analytics
+
+
