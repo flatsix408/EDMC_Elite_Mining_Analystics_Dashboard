@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Elite Mining Analytics Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <h1>Elite Mining Analytics Dashboard</h1>
+  <div class="controls">
+    <button id="select-folder">Select Folder</button>
+    <span id="folder-path"></span>
+  </div>
+  <div id="summary-section">
+    <h2>Session Summary</h2>
+    <table id="summary-table">
+      <thead>
+        <tr>
+          <th>File</th><th>Start</th><th>End</th><th>Duration (s)</th>
+          <th>Tons</th><th>TPH</th><th>Refined Events</th><th>Commander</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <div id="aggregates"></div>
+  </div>
+  <div id="charts-section">
+    <h2>Charts</h2>
+    <select id="chart-type">
+      <option value="tons">Tons mined per session</option>
+      <option value="tph">TPH histogram</option>
+      <option value="refined">Refined events per session</option>
+      <option value="pie">Asteroid content (pie)</option>
+    </select>
+    <button id="show-chart">Show Chart</button>
+    <canvas id="dashboard-chart" width="800" height="350"></canvas>
+  </div>
+  <div id="eventlog-section">
+    <h2>Session Event Log</h2>
+    <p>Select a row from the table to view the session event log.</p>
+    <pre id="event-log"></pre>
+  </div>
+  <script src="renderer.js"></script>
+</body>
+</html>
