@@ -1,8 +1,8 @@
-# Elite Mining Analytics Dashboard (Electron Edition)
+# Elite Mining Analytics Dashboard
 
 This is a cross-platform desktop dashboard for analyzing Elite Dangerous mining session data (in JSON format), built using [Electron](https://www.electronjs.org/).  
 It provides a modern interface to explore, summarize, and visualize your mining sessions with tables and interactive charts.
-This dashboard is supplemental and is designed to by the used with EDMC Mining Analytics (https://github.com/SweetJonnySauce/EDMC-Mining-Analytics)
+This dashboard has depedencies on and is designed to be used with EDMC Mining Analytics (https://github.com/SweetJonnySauce/EDMC-Mining-Analytics)
 
 ---
 
