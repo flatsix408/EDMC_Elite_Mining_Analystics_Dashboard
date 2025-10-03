@@ -1,0 +1,15 @@
+{
+  "name": "mining-dashboard-electron",
+  "version": "1.0.0",
+  "description": "Cross-platform mining analytics dashboard in Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "chart.js": "^4.4.1"
+  },
+  "devDependencies": {
+    "electron": "^27.0.0"
+  }
+}
